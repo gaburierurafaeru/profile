@@ -1,0 +1,77 @@
+body{
+  background-color:#D3F3EE;
+}
+
+h1 {
+  color:#7FB7BE;
+  font: size 200px;;
+  font-family: 'Edu SA Beginner', cursive;
+  line-height: large;
+}
+
+h2 {
+color: blueviolet;
+font-size: larger;
+font-family:'Edu SA Beginner', cursive;
+
+}
+
+p{
+  font-family:'Pacifico', cursive;
+  font-size: small;
+}
+
+h3{
+  font-family:'Roboto', sans-serif;
+  font-size: small;
+  background: white;                         /* White background */
+  padding: 10px;                             /* Internal space */
+}
+
+img{
+width:300px;
+height:300px;
+border-radius:150px;
+box-shadow:2px 2px 2px white;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.name {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.follow {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
